@@ -28,9 +28,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 '/api/auth/signin'
 */
 app.get("/", async function (req, res) {
-  console.log(db.user.name);
-
-  console.log(db.user.tableName);
   res.sendStatus(200).send("todo bien");
 });
 
